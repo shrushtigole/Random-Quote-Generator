@@ -1,0 +1,85 @@
+body{
+    /* margin: 0px; */
+    padding: 0%;
+    box-sizing: border-box;
+}
+#generator{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#generator>h3{
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+#quoteList{
+    padding: 20px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 16px;
+    height: 200px;
+    width: 700px;
+    margin: auto;
+}
+
+.quotes{
+    font-size: 28px;
+}
+#author{
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+}
+
+
+
+/* Button */
+#creator{
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 220px;
+    color: black;
+    background-color: rgb(235, 174, 113);
+    border-radius: 8px;
+    margin: 2px 300px;
+    cursor: pointer;
+}
+#Add{
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 220px;
+    color: black;
+    background-color: rgb(235, 174, 113);
+    border-radius: 8px; 
+    cursor: pointer;  
+}
+
+#inputQuote{
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    color: black;
+    border-radius: 8px; 
+    margin: 30px 825px 10px ; 
+} 
+#inputAuthor{
+    font-size: 20px;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    color: black;
+    border-radius: 8px;
+    margin: 0px 825px 20px ;  
+}
+#create{
+    font-size: 20px;
+    text-align: center;
+    height: 40px;
+    width: 220px;
+    color: black;
+    border-radius: 8px;
+    margin: 0px 825px;
+}
